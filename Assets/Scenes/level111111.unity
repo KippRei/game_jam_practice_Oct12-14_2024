@@ -4980,6 +4980,7 @@ MonoBehaviour:
   pauseMenu: {fileID: 937200714}
   hitBtnToStart: {fileID: 1162275939}
   key_to_next_level: {fileID: 274488283}
+  time_text: {fileID: 0}
   is_paused: 1
   game_started: 0
 --- !u!1 &1367533824
@@ -5672,6 +5673,10 @@ PrefabInstance:
     - target: {fileID: 3154592366348334133, guid: d3aa21d002018c644a88055636a8e578, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3154592366348334133, guid: d3aa21d002018c644a88055636a8e578, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5753964025680175201, guid: d3aa21d002018c644a88055636a8e578, type: 3}
       propertyPath: gameloop
